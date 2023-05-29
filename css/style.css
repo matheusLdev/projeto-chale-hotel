@@ -87,6 +87,7 @@ nav a {
   font-size: 0.8em;
   padding: 5px;
   color: #6e672c;
+  border-bottom: 1px solid #b5ab56;
   line-height: 30px;
 }
 
@@ -213,19 +214,11 @@ footer {
 
   #hotel-cities a {
     font-size: 0.6em;
-    padding: 4px 6px;
+    padding: 5px 6px;
     margin-left: 2px;
   }
 
   nav {
     margin-left: 90px;
-  }
-
-  nav a {
-    border-bottom: 1px solid #b5ab56;
-  }
-
-  nav #last {
-    border-bottom: none;
   }
 }
