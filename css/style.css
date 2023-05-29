@@ -158,3 +158,74 @@ footer {
   background: #fff url(../img/bg-rodape.png) repeat-x top;
   color: #7d7640;
 }
+
+@media (max-width: 700px) {
+  #container {
+    min-width: 600px;
+    background: #ede9cc;
+  }
+  
+  #menu-area {
+    width: 450px;
+  }
+  
+  #hotel-cities {
+    width: 282px;
+    font-size: 0.6em;
+  }
+  
+  #hotel-cities a {
+    padding: 5px 10px;
+    margin-left: 20px;
+  }
+  
+  section {
+    border-bottom: 5px solid #615b2d;
+  }
+
+  section, aside {
+    float: none;
+    background: none;
+    width: 100%;
+  }
+}
+
+@media(max-width:400px) {
+  body{
+   margin: 0; 
+  }
+  #container {
+    min-width: 390px;
+  }
+  
+  #menu-area {
+    width: 245px;
+  }
+
+  #container-menu {
+    margin-left: 25px;
+  }
+
+  #hotel-cities {
+    width: 100%;
+    font-size: 0.5em;
+  }
+
+  #hotel-cities a {
+    font-size: 0.6em;
+    padding: 4px 6px;
+    margin-left: 2px;
+  }
+
+  nav {
+    margin-left: 90px;
+  }
+
+  nav a {
+    border-bottom: 1px solid #b5ab56;
+  }
+
+  nav #last {
+    border-bottom: none;
+  }
+}
